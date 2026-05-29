@@ -518,8 +518,7 @@ body {
     aspect-ratio: auto!important
 }
 
-/* Headings */
-h1, h2, h3, h4, h5, h6 { color: var(--txt) !important; }
+
 
 /* Links */
 a { color: var(--txs); text-decoration: none; transition: color .2s var(--ease); }

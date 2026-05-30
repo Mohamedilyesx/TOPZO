@@ -817,7 +817,7 @@ nav.navbar.navbar3 svg, nav.navbar.navbar3 i,
 }
 .product-item:hover, .card2:hover {
   transform: translateY(-5px) !important;
-  border-color: rgba(218,174,73,.35) !important;
+  border-color: rgb(255 255 255 / 35%) !important;
   box-shadow: 0 14px 36px rgba(218,174,73,.1), 0 6px 20px rgba(0,0,0,.4) !important;
 }
 
@@ -972,7 +972,7 @@ p.single-promo-contents-para {
 /* Section headings above features */
 .four-blocks .section-head .section-title,
 .four-blocks .section-title {
-  color: var(--txt) !important;
+ color: #ffffff !important;
 }
 .four-blocks .section-head .section-sub {
   color: var(--g) !important;
@@ -1034,7 +1034,7 @@ p.single-promo-contents-para {
 .jawak-tab-btn {
   display: flex; align-items: center; gap: 10px;
   min-height: 58px; border-radius: 14px; padding: 12px 14px;
-  background-color: rgba(255,255,255,.02); border: 1px solid rgba(218,174,73,.14);
+  background-color: rgba(255,255,255,.02); border: 1px solid rgb(255 255 255 / 14%) !important;
   color: #ecd9a0; cursor: pointer; text-align: right; width: 100%;
   transition: all .25s var(--ease); font-size: 14px; font-weight: 700; font-family: inherit;
 }
@@ -2655,7 +2655,7 @@ div.mobile-nav:not(.opacity-0) .mobile-nav-item.center-nav .mobile-nav-icon i {
   :root {
     --bg3:        #0d0b08;
     --jwk-gold:   #e1192b;
-    --jwk-border: rgba(218,174,73,.14);
+    --jwk-border: rgb(255 255 255 / 14%) !important;
     --jwk-dim:    rgba(218,174,73,.07);
     --jwk-text:   #e1192b;
   }
@@ -3279,7 +3279,7 @@ footer hr {
 
 .jwk-contact-card {
   background: linear-gradient(145deg, rgba(218,174,73,.05), rgba(185,136,40,.02));
-  border: 1px solid rgba(218,174,73,.14);
+  border: 1px solid rgb(255 255 255 / 14%) !important;
   border-radius: 16px;
   padding: 18px 20px;
   display: flex;
@@ -3443,7 +3443,7 @@ footer hr {
   height: 28px;
   border-radius: 8px;
   background: rgba(218,174,73,.08);
-  border: 1px solid rgba(218,174,73,.14);
+  border: 1px solid rgb(255 255 255 / 14%) !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3452,7 +3452,7 @@ footer hr {
 }
 
 .jwk-imp-link-item:hover .jwk-link-icon {
-  background: rgba(218,174,73,.14);
+  background: rgb(255 255 255 / 14%) !important;
   border-color: rgba(218,174,73,.3);
 }
 
@@ -4023,3 +4023,9 @@ body.jwk-on { padding-bottom: 68px; }
 .btn-main {
     color: #ffffff!important;
 }
+
+
+.product-item .product-price, .card2 .product-price, strong.product-price {
+    color: #ffffff !important;
+}
+

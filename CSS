@@ -12,7 +12,7 @@
 
   --bg:   #0b0b0e;   /* main background */
   --bg2:  #111116;   /* section background */
-  --bg3:  #17171d;   /* elevated cards */
+  --bg3:  #13131a;   /* elevated cards */
   --bg4:  #070709;   /* deepest black */
 
   --txt:  #f5f1ee;   /* primary text */
@@ -28,6 +28,18 @@
   --nav-h: 65px;
 }
 
+
+.splide .btn-wishlist {
+    background: #4d4d4d;
+}
+
+.share-list i {
+    color: #ffffff;
+}
+
+.btn-main {
+    color: #ffffff!important;
+}
  
 /* ===حل مشكلة السلة في القالب    === */
 
@@ -217,13 +229,15 @@ custom-navbar .offcanvas.show .custom-navbar-nav li a {
 /* ===تقييم باللون ذهبي مع نجمة  === */
 
 .sr_rating {
-    color: #e1192b !important;
+   color: #ffca28 !important;
 }
+
 
 .sr_rating i.la-star,
 .sr_rating .las.la-star {
-    color: #e1192b !important;
+   color: #ffca28 !important;
 }
+
 
 /* ===وضع ليلي تقييماتت  === */
 
@@ -278,7 +292,8 @@ body {
 
 /* ===fix some prolbem in cart page   === */
 .la, .las {
-    color: #7b7b7b!important;
+    font-family: 'Line Awesome Free';
+    font-weight: 900;
 }
 
 
@@ -295,6 +310,14 @@ body {
     border-radius: 1rem!important;
    background: #8b1f29!important;
 }
+
+
+
+
+.productQty span {
+    background: #4f4d4d  !important;
+}
+
 
 .bank_details {
     background: #8b1f29!important;
@@ -393,7 +416,7 @@ body {
 }
 /* ===pop up cart and wishlist and user dark mode   === */
 [dir="rtl"] .custom-navbar .dropdown-contents.dropdown-left {
-    background: #cd0013!important;
+   background: #252021 !important;
 }
 
 /* ===manage-account dark mode   === */
@@ -540,7 +563,7 @@ a:hover { color: var(--g); }
 input:not([type="range"]), textarea, select {
   background-color: var(--bg3) !important;
   border: 1px solid rgba(218,174,73,.2) !important;
-  color: var(--txt) !important;
+  color: #ffffff !important;
   border-radius: 10px !important;
 }
 input:focus, textarea:focus, select:focus {
@@ -1153,21 +1176,24 @@ p.single-promo-contents-para {
   border-color: var(--bdr) !important;
 }
 /* Quantity input */
+
 .productQty {
-  background-color: var(--bg3) !important;
-  border: 1px solid var(--bdr) !important;
-  border-radius: 12px !important;
+    background-color: #151515 !important;
+    border: 1px solid rgb(255 255 255 / 18%) !important;
+    border-radius: 12px !important;
 }
 .productQty .substract, .productQty .plus { color: var(--g) !important; }
 .productQty .quantityInput {
-  background-color: transparent !important; border: none !important; color: var(--txt) !important;
+ background-color: transparent !important;
+    border: none !important;
+    color: #ffffff !important;
 }
 
 
 .product-share {
-  background-color: var(--bg3) !important;
-  border-color: var(--bdr) !important;
-  border-radius: 14px !important;
+  background-color: #16161c!important;
+ border-color: rgb(255 255 255 / 18%) !important;
+    border-radius: 14px !important;
 }
 .product-share a { color: var(--txs) !important; }
 .product-share a:hover { color: var(--g) !important; }
@@ -1193,19 +1219,26 @@ p.single-promo-contents-para {
 /* Add to cart / Buy buttons */
 .btn-main {
   background: linear-gradient(135deg, var(--gx), var(--g), var(--gl)) !important;
+    color: #ffffff !important;
   border: none !important; color: #0a0800 !important; font-weight: 800 !important;
   border-radius: 999px !important;
-  box-shadow: 0 8px 22px rgba(218,174,73,.22) !important;
+ box-shadow: 0 8px 22px rgb(255 255 255 / 22%) !important;
 }
 .btn-main:hover { transform: translateY(-2px) !important; }
+
 .btn-main-outline {
-  background-color: transparent !important;
-  border: 1px solid rgba(218,174,73,.5) !important;
-  color: var(--g) !important; border-radius: 999px !important; font-weight: 700 !important;
+    background-color: transparent !important;
+    border: 1px solid rgb(255 255 255 / 50%) !important;
+    color: #ffffff !important;
+    border-radius: 999px !important;
+    font-weight: 700 !important;
 }
+
+
 .btn-main-outline:hover {
-  background: linear-gradient(135deg, var(--gx), var(--g), var(--gl)) !important;
-  border-color: transparent !important; color: #0a0800 !important;
+    background: linear-gradient(135deg, var(--gx), var(--g), var(--gl)) !important;
+    border-color: transparent !important;
+    color: #ffffff !important;
 }
 
 
@@ -1225,12 +1258,14 @@ p.single-promo-contents-para {
   border-radius: 999px !important; background-color: transparent !important;
   padding: 10px 24px !important;
 }
+
 .nav-tabs .nav-link.active {
-  background-color: var(--bg3) !important; color: var(--g) !important;
-  border: 1px solid rgba(218,174,73,.25) !important;
+    background-color: #e1192b !important;
+    color: #ffffff !important;
+    border: 1px solid rgba(218, 174, 73, .25) !important;
 }
 .tab-content { background-color: var(--bg) !important; }
-.tab-pane { background-color: var(--bg) !important; color: var(--txs) !important; }
+.tab-pane { background-color: #151515 !important; color: var(--txs) !important; }
 .tab-pane * { color: #ffffff !important; }
 
 .gl-star-rating--stars span {
@@ -1244,7 +1279,7 @@ p.single-promo-contents-para {
 /* Dropdown menus (account, cart, etc.) */
 .dropdown-menu {
   background-color: var(--bg2) !important;
-  border: 1px solid rgba(218,174,73,.18) !important;
+  border: 1px solid #ffffff2e !important;
   border-radius: 14px !important;
   box-shadow: 0 12px 32px rgba(0,0,0,.5) !important;
 }
@@ -1299,7 +1334,7 @@ p.single-promo-contents-para {
 /* Generic popup/modal */
 .modal-content {
   background-color: var(--bg2) !important;
-  border: 1px solid rgba(218,174,73,.18) !important;
+  border: 1px solid #ffffff2e !important;
   border-radius: 18px !important;
 }
 .modal-header {
@@ -1446,7 +1481,7 @@ body.checkout_page,
 /* ── Coupon promo section ── */
 .coupon_promo-card {
   background-color: var(--bg3) !important;
-  border: 1px solid rgba(218,174,73,.18) !important;
+  border: 1px solid #ffffff2e !important;
   border-radius: 12px !important;
   padding: 16px !important;
 }
@@ -1463,7 +1498,7 @@ body.checkout_page,
 .coupon_promo-input .btn.btn-main {
   background: linear-gradient(135deg, var(--gx), var(--g), var(--gl)) !important;
   border: none !important;
-  color: #0a0800 !important;
+ color: #ffffff !important;
   font-weight: 700 !important;
   border-radius: 8px !important;
 }
@@ -1568,7 +1603,7 @@ body.checkout_page,
 .checkout_page .form-control,
 .checkout_page .form-select {
   background-color: var(--bg3) !important;
-  border-color: rgba(218,174,73,.18) !important;
+  border-color: #ffffff2e !important;
   color: var(--txt) !important;
 }
 .checkout .form-control::placeholder,
@@ -1585,7 +1620,7 @@ body.checkout_page,
 .checkout .input-group-text,
 .checkout_page .input-group-text {
   background-color: var(--bg) !important;
-  border-color: rgba(218,174,73,.18) !important;
+  border-color: #ffffff2e !important;
   color: var(--txm) !important;
 }
 .checkout .input-wrap i.icon,
@@ -1631,7 +1666,7 @@ body.checkout_page,
 /* ── Select2 on checkout ── */
 .checkout_page .select2-container--default .select2-selection--single {
   background-color: var(--bg3) !important;
-  border-color: rgba(218,174,73,.18) !important;
+  border-color: #ffffff2e !important;
   color: var(--txt) !important;
 }
 .checkout_page .select2-selection__rendered { color: var(--txt) !important; }
@@ -1642,7 +1677,7 @@ body.checkout_page,
 .checkout .submit-btn {
   background: linear-gradient(135deg, var(--gx), var(--g), var(--gl)) !important;
   border: none !important;
-  color: #0a0700 !important;
+  color: #ffffff !important;
   font-weight: 800 !important;
   border-radius: 12px !important;
   box-shadow: 0 6px 22px rgba(218,174,73,.25) !important;
@@ -1654,7 +1689,7 @@ body.checkout_page,
 .checkout_page .modal-content,
 .checkout_page .login_modal .modal-content {
   background-color: var(--bg2) !important;
-  border: 1px solid rgba(218,174,73,.18) !important;
+  border: 1px solid #ffffff2e !important;
   border-radius: 20px !important;
 }
 /* Back-home arrow inside modal */
@@ -2370,7 +2405,7 @@ div.mobile-nav:not(.opacity-0) .mobile-nav-item.center-nav .mobile-nav-icon i {
 .dash_menu-list li a:hover {
   color: var(--g) !important;
   background-color: rgba(218,174,73,.08) !important;
-  border-color: rgba(218,174,73,.18) !important;
+  border-color: #ffffff2e !important;
 }
 
 /* ── Active tab ── */
@@ -2784,7 +2819,7 @@ div.mobile-nav:not(.opacity-0) .mobile-nav-item.center-nav .mobile-nav-icon i {
     align-items: center !important;
     justify-content: center !important;
     background: rgba(218,174,73,.1) !important;
-    border: 1px solid rgba(218,174,73,.18) !important;
+    border: 1px solid #ffffff2e !important;
     border-radius: 10px !important;
     color: var(--jwk-gold) !important;
     transition: background .2s, border-color .2s !important;
@@ -2798,7 +2833,7 @@ div.mobile-nav:not(.opacity-0) .mobile-nav-item.center-nav .mobile-nav-icon i {
   }
 
   .offcanvas-body .custom-navbar-nav li a:hover .jwk-nav-icon {
-    background: rgba(218,174,73,.18) !important;
+    background: #ffffff2e !important;
     border-color: rgba(218,174,73,.35) !important;
   }
 
@@ -2833,7 +2868,7 @@ div.mobile-nav:not(.opacity-0) .mobile-nav-item.center-nav .mobile-nav-icon i {
     color: var(--jwk-gold) !important;
   }
   .custom-navbar-nav li:first-child > .link-wrapper > a .jwk-nav-icon {
-    background: rgba(218,174,73,.18) !important;
+    background: #ffffff2e !important;
     border-color: rgba(218,174,73,.3) !important;
   }
 
@@ -2860,7 +2895,7 @@ div.mobile-nav:not(.opacity-0) .mobile-nav-item.center-nav .mobile-nav-icon i {
   --txt:  #e1192b;
   --txs:  #ffffff;
   --txm:  #ffffff;
-  --bdr:  rgba(218,174,73,.18);
+  --bdr:  #ffffff2e;
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -3164,7 +3199,7 @@ footer hr {
   background: linear-gradient(
     90deg,
     transparent,
-    rgba(218,174,73,.18) 50%,
+    #ffffff2e 50%,
     transparent
   ) !important;
   margin: 28px 0 !important;
@@ -3394,7 +3429,7 @@ footer hr {
 
 .jwk-imp-link-item:hover {
   color: #e1192b !important;
-  border-color: rgba(218,174,73,.18) !important;
+  border-color: #ffffff2e !important;
   background: rgba(218,174,73,.04) !important;
   padding-right: 16px !important;
 }
@@ -3434,7 +3469,7 @@ footer hr {
 
 .jwk-night-schedule {
   background: linear-gradient(145deg, #0e0c08, #15120a);
-  border: 1px solid rgba(218,174,73,.18);
+  border: 1px solid #ffffff2e;
   border-radius: 18px;
   overflow: hidden;
   position: relative;
@@ -3759,8 +3794,8 @@ footer hr {
 .jwk-qty {
   display: inline-flex;
   align-items: center;
-  background: rgba(218,174,73,.08);
-  border: 1px solid rgba(218,174,73,.25);
+  background: rgb(0 0 0 / 14%);
+  border: 1px solid rgb(255 255 255 / 20%);
   border-radius: 999px;
   padding: 3px;
   flex-shrink: 0;
@@ -3773,7 +3808,7 @@ footer hr {
   border-radius: 50%;
   background: rgb(0 0 0 / 14%);
   border: 1px solid rgba(218,174,73,.2);
-  color: #e1192b;
+  color: #ffffff;
   font-size: 18px; font-weight: 700;
   cursor: pointer;
   display: flex; align-items: center; justify-content: center;
@@ -3782,14 +3817,14 @@ footer hr {
   line-height: 1;
   flex-shrink: 0;
 }
-.jwk-qb:hover { background: rgba(218,174,73,.3); }
-.jwk-qb:active { background: rgba(218,174,73,.4); }
+.jwk-qb:hover { background: linear-gradient(135deg, #ff808b 0%, #e1192b 50%, #ffadae 100%); }
+.jwk-qb:active { background: linear-gradient(135deg, #ff808b 0%, #e1192b 50%, #ffadae 100%); }
 
 .jwk-qn {
   width: 36px;
   text-align: center;
   background: transparent; border: none;
-  color: #e1192b;
+  color: #ffffff;
   font-size: 15px; font-weight: 700;
   outline: none; padding: 0;
   -moz-appearance: textfield;
@@ -3825,7 +3860,7 @@ footer hr {
   font-family: inherit;
   flex-shrink: 0;
 }
-.jwk-add:hover  { transform: translateY(-2px); box-shadow: 0 8px 26px rgba(218,174,73,.5); color: #0a0800 !important; }
+.jwk-add:hover  { transform: translateY(-2px); box-shadow: 0 8px 26px rgba(218,174,73,.5); color: #ffffff !important; }
 .jwk-add:active { transform: translateY(0); }
 .jwk-add svg    { width: 16px; height: 16px; flex-shrink: 0; }
 
@@ -3850,11 +3885,15 @@ footer hr {
   font-family: inherit;
   flex-shrink: 0;
 }
+
+
 .jwk-buy:hover {
-  background: linear-gradient(135deg, #c49535, #e1192b, #efd070);
-  border-color: transparent;
-  color: #0a0800 !important;
+    background: linear-gradient(135deg, #f76471, #e1192b, #e3dabe);
+    border-color: transparent;
+    color: #ffffff !important;
 }
+
+
 .jwk-buy:active { opacity: .85; }
 
 body.jwk-on { padding-bottom: 68px; }
@@ -3974,4 +4013,13 @@ body.jwk-on { padding-bottom: 68px; }
     max-width: 100% !important;
     max-height: 100% !important;
   }
+}
+
+
+.splide .btn-wishlist {
+    background: #4d4d4d!important;
+}
+
+.btn-main {
+    color: #ffffff!important;
 }

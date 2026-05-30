@@ -332,6 +332,12 @@ body {
     background: #8b1f29!important;
 }
 
+
+.details-title {
+    color: #ffffff;
+}
+
+
 /* ===order-review dark mode   === */
 
 .order-header {
@@ -1812,7 +1818,7 @@ body.checkout_page,
 .product-cat-slider-area, .product-type-area {
   background-color: var(--bg) !important;
 }
-.section-head .section-title { color: var(--txt) !important; }
+.section-head .section-title { color: #ffffff !important; }
 .section-head .section-sub { color: var(--g) !important; }
 
 /* Remove white section backgrounds */
@@ -1827,6 +1833,7 @@ section { background-color: transparent !important; }
   background: linear-gradient(135deg, var(--gx), var(--g), var(--gl)) !important;
   border: none !important; color: #0a0800 !important;
   font-weight: 800 !important; border-radius: 999px !important;
+color: #ffffff !important;
 }
 .btn-primary:hover { transform: translateY(-2px) !important; }
 .btn-outline-secondary {
@@ -1872,7 +1879,7 @@ section { background-color: transparent !important; }
   }
   /* Scrolled = same dark on mobile */
   nav.navbar.navbar3.scrolled, .custom-navbar.scrolled {
-    background-color: rgba(8, 6, 0, 0.99) !important;
+    background-color: rgb(19 19 26) !important;
   }
 
   /* Hamburger toggle button */
@@ -1895,7 +1902,6 @@ section { background-color: transparent !important; }
     stroke: var(--g) !important;
   }
   /* nav_icon used in Tjar mobile menu button */
-  .nav_icon svg, .nav_icon i { color: var(--g) !important; stroke: var(--g) !important; fill: var(--g) !important; }
 
   /* Search icon / bar on mobile */
   .navbar-input input, .searchbar-suggetions input {
@@ -2138,8 +2144,8 @@ section { background-color: transparent !important; }
 
 /* Container */
 div.mobile-nav:not(.opacity-0) {
-  background-color: #231c06 !important;
-  border-top: 1px solid rgba(218,174,73,.28) !important;
+background-color: #13131a; !important;
+border-top: 1px solid rgb(73 73 97) !important;
   box-shadow: 0 -4px 24px rgba(0,0,0,.6) !important;
 }
 
@@ -2157,7 +2163,7 @@ div.mobile-nav:not(.opacity-0) .mobile-nav-link {
   justify-content: center !important;
   gap: 3px !important;
   padding: 8px 4px !important;
-  color: rgba(218,174,73,.55) !important;
+  color: rgb(255 255 255 / 55%) !important;
   text-decoration: none !important;
   transition: color .2s ease !important;
   position: relative !important;
@@ -2801,6 +2807,8 @@ div.mobile-nav:not(.opacity-0) .mobile-nav-item.center-nav .mobile-nav-icon i {
     flex: 1 !important;
     font-size: 15.5px !important;
     font-weight: 500 !important;
+        color: #ffffff;
+        opacity: 100%;
   }
 
   /* ── سهم ── */
@@ -2851,7 +2859,7 @@ div.mobile-nav:not(.opacity-0) .mobile-nav-item.center-nav .mobile-nav-icon i {
   --bg4:  #141109;
   --txt:  #e1192b;
   --txs:  #ffffff;
-  --txm:  #908778;
+  --txm:  #ffffff;
   --bdr:  rgba(218,174,73,.18);
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -2998,14 +3006,14 @@ footer a:hover {
 .store-section.footer-store-section span,
 .store-section.footer-store-section li,
 footer p, footer span, footer li {
-  color: #8a8070 !important;
+  color: #ffffff !important;
   font-size: 13.5px !important;
   line-height: 1.85 !important;
 }
 
 .store-section.footer-store-section,
 footer {
-  color: #8a8070 !important;
+  color: #ffffff !important;
 }
 
 /* ──────────────────────────────────────────────────────────────────────
@@ -3045,7 +3053,7 @@ footer ul li:last-child {
   border-radius: 10px !important;
   border: 1px solid rgba(218,174,73,.2) !important;
   background: linear-gradient(145deg, rgba(218,174,73,.06), rgba(185,136,40,.03)) !important;
-  color: #8a8070 !important;
+  color: #ffffff !important;
   padding: 0 !important;
   gap: 0 !important;
   transition: all .25s ease !important;
@@ -3509,7 +3517,7 @@ footer hr {
 
 .jwk-day-name {
   font-size: 12.5px !important;
-  color: #8a8070 !important;
+  color: #ffffff !important;
   font-weight: 500 !important;
   flex: 1 !important;
 }
@@ -3674,8 +3682,8 @@ footer hr {
   left: 0; right: 0;
   bottom: 0;
   z-index: 9200;
-  background: linear-gradient(160deg, #0f0a00 0%, #1a1100 55%, #0f0a00 100%);
-  border-top: 1px solid rgba(218,174,73,.4);
+  background: #13131a;
+ border-top: 1px solid rgb(228 37 54);
   box-shadow: 0 -6px 30px rgba(0,0,0,.75),
               inset 0 1px 0 rgba(218,174,73,.15);
   transform: translateY(110%);
@@ -3729,7 +3737,7 @@ footer hr {
 }
 
 .jwk-prod-name {
-  color: #e1192b;
+ color: #ffffff;
   font-size: 13px; font-weight: 600;
   line-height: 1.4;
   overflow: hidden;
@@ -3763,7 +3771,7 @@ footer hr {
 .jwk-qb {
   width: 32px; height: 32px;
   border-radius: 50%;
-  background: rgba(218,174,73,.14);
+  background: rgb(0 0 0 / 14%);
   border: 1px solid rgba(218,174,73,.2);
   color: #e1192b;
   font-size: 18px; font-weight: 700;
@@ -3806,9 +3814,9 @@ footer hr {
   gap: 7px;
   padding: 0 20px; height: 44px;
   border-radius: 999px;
-  background: linear-gradient(135deg, #c49535 0%, #e1192b 50%, #efd070 100%);
+ background: linear-gradient(135deg, #ff808b 0%, #e1192b 50%, #ffadae 100%);
   border: none;
-  color: #0a0800 !important;
+  color: #ffffff !important;
   font-size: 14px; font-weight: 800;
   cursor: pointer; white-space: nowrap;
   box-shadow: 0 4px 18px rgba(218,174,73,.35);
@@ -3832,8 +3840,9 @@ footer hr {
   padding: 0 20px; height: 44px;
   border-radius: 999px;
   background: transparent;
-  border: 1.5px solid rgba(218,174,73,.5);
-  color: #e1192b !important;
+  background: transparent;
+    border: 1.5px solid rgb(255 255 255 / 50%);
+  color: #ffffff !important;
   font-size: 14px; font-weight: 700;
   cursor: pointer; white-space: nowrap;
   transition: background .2s, border-color .2s, color .2s;
